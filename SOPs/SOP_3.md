@@ -1,32 +1,46 @@
 # How will OS version control be handled?
+* *Hint: Read Windows Server Update Services.*
 
-Hint: Read Windows Server Update Services{:target="_blank"}.
+<br>
 
 ## Purpose
 
-* Answer for this SOP
+* This document is the procedure for OS version control for employees
+
+<br>
 
 ## Scope
 
-* Answer for this SOP
+* This SOP is to be used for keeping the same OS version for all employees
+
+<br>
 
 ## Responsibilities
 
-* Answer for this SOP
+* The IT department will be responsible for installing/updating the operating systems of employees to ensure uniformity across the company
+
+<br>
 
 ## Procedure
 
-* Answer for this SOP
+* Verify the user's OS, and update to the latest systems that all employees must adhere to for uniformity if necessary
+
+<br>
 
 ## References
 
-* Answer for this SOP
+* [SOPs](../SOPs/)
+
+<br>
 
 ## Definitions
 
-* Answer for this SOP
+* **Operating System** - The software that allows basic functions on a computer to operate, such as the execution of applications
+
+<br>
 
 ## Revision History
 
 * Date 06/19/2023 First_Name Last_Name
 * 06/19/2023 - Raphael Chookagian
+* 06/20/2023 - Marcelo Clark
