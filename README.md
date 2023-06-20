@@ -13,7 +13,7 @@ This repository will contain all of the documentation related to this project. T
 | Mack Dirks | Ben Hobbs | Justin Dotson  | Marcelo Clark  | Raphael Chookagian |
 |:----------------------:|:-----------------------:|:----------------------:|:----------------------:|:----------------------:|
 | [Linkedin](https://www.linkedin.com/in/mack-dirks/) | [Linkedin](https://www.linkedin.com/in/benjaminshobbs/) | [Linkedin](http://linkedin.com/in/justin-dotson/) | [Linkedin](http://www.linkedin.com/in/marcelotc) | [Linkedin](https://www.linkedin.com/in/raphaelchookagian/) |
-| [Github](https://github.com/MackD51) | [Github](https://github.com/benjamin-s-hobbs) | [Github](https://github.com/ileicathat/) | [Github](https://github.com/mtc2434) | [Github]((https://github.com/cesarderio)) |
+| [Github](https://github.com/MackD51) | [Github](https://github.com/benjamin-s-hobbs) | [Github](https://github.com/ileicathat/) | [Github](https://github.com/mtc2434) | [Github](https://github.com/cesarderio) |
 
 <br>
 
