@@ -1,28 +1,42 @@
 # How will you ensure users can access their files from any domain attached system?
 
+<br>
+
 ## Purpose
 
-* Answer for this SOP
+* This SOP is to establish the standard for our Active Directory system for company, groups and users.
+
+<br>
 
 ## Scope
 
-* Answer for this SOP
+* The IT department will have tickets created with any and all information needed for users, changes, roles, groups, new hires, terminations, etc.
+
+<br>
 
 ## Responsibilities
 
-* Answer for this SOP
+* The IT department will handle upkeep and maintainence of Access control, Directories, Groups, Users, etc.
+
+<br>
 
 ## Procedure
 
-* Answer for this SOP
+* SOP will be updated to reflect the current programs and resources to be used for monitoring and any other blue team/red team work.
+
+<br>
 
 ## References
 
-* Answer for this SOP
+* [SOP](../SOPs/)
+
+<br>
 
 ## Definitions
 
-* Answer for this SOP
+* **SOP** - Standardized Operating Procedure
+
+<br>
 
 ## Revision History
 
