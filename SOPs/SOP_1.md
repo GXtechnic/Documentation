@@ -1,30 +1,55 @@
 # How will network account needs be handled for employees being onboarded?
 
+<br>
+
 ## Purpose
 
-* Answer for this SOP
+* This document is the SOP for the onboarding of new employees
+
+<br>
 
 ## Scope
 
-* Answer for this SOP
+* This SOP is to be used for onboarding new hires/employees.
+
+<br>
 
 ## Responsibilities
 
-* Answer for this SOP
+* The IT department will be responsible for creating the accounts and related access to systems as part of the overall onboarding process. 
+
+<br>
 
 ## Procedure
 
-* Answer for this SOP
+* Include all needed information including usernames and passwords
+
+* Allow the new hire's user profile access into the current system
+
+* Initialize and add any needed servers, network drives, etc.
+
+* Add [Email Client Setup SOP](https://github.com/knonsense/Documentation/tree/dev/SOPs)
+
+* Add any other needed or requested programs and applications
+
+<br>
 
 ## References
 
-* Answer for this SOP
+* [SOPs](../SOPs/)
+
+* [Email Client Setup SOP](https://github.com/knonsense/Documentation/tree/dev/SOPs)
+
+<br>
 
 ## Definitions
 
-* Answer for this SOP
+* SOP - Standard Operating Procedure
+
+<br>
 
 ## Revision History
 
 * Date 06/19/2023 First_Name Last_Name
 * 06/19/2023 - Raphael Chookagian
+* 06/20/2023 - Marcelo Clark
