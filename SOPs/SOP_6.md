@@ -4,7 +4,7 @@
 
 ## Purpose
 
-* To ensure consistent and efficient troubleshooting practices to resolve technical issues effectively.
+* This SOP is to establish and ensure consistent and efficient troubleshooting practices to resolve technical issues effectively.
 
 <br>
 
@@ -88,7 +88,7 @@
 
 ## Definitions
 
-**SOP** - Standard Operating Procedure
+***SOP*** - Standard Operating Procedure
 These are the guidelines and rules we follow for a given task.
 
 <br>

@@ -4,7 +4,7 @@
 
 ## Purpose
 
-* This SOP is to establish the standard for our Active Directory system for company, groups and users.
+* This ***SOP*** is to establish the standard for our Active Directory system for company, groups and users.
 
 <br>
 
@@ -22,7 +22,7 @@
 
 ## Procedure
 
-* SOP will be updated to reflect the current programs and resources to be used for monitoring and any other blue team/red team work.
+* ***SOP*** will be updated to reflect the current programs and resources to be used for monitoring and any other blue team/red team work.
 
 <br>
 
@@ -34,7 +34,7 @@
 
 ## Definitions
 
-* **SOP** - Standardized Operating Procedure
+* ***SOP*** - Standardized Operating Procedure
 
 <br>
 
@@ -43,3 +43,4 @@
 * Date 06/19/2023 First_Name Last_Name
 * 06/19/2023 - Raphael Chookagian
 * 06/20/2023 - Raphael Chookagian
+* 06/21/2023 - Raphael Chookagian

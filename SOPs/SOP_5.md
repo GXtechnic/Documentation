@@ -4,13 +4,13 @@
 
 ## Purpose
 
-* This **SOP** is to establish a standardized process for handling the monitoring of network traffic.
+* This ***SOP*** is to establish a standardized process for handling the monitoring of network traffic.
 
 <br>
 
 ## Scope
 
-* This SOP applies to all employees and departments.
+* This ***SOP*** is the standardized guidelines to be followed and completed by the IT department only.
 
 <br>
 
@@ -24,7 +24,7 @@
 
 * The IT department will be responsible for the running and maintenance of any and all environments, networks, access and traffic.
 
-* SOP will be updated to reflect the current programs and resources to be used for monitoring and any other blue team/red team work.
+* ***SOP*** will be updated to reflect the current programs and resources to be used for monitoring and any other blue team/red team work.
 
 <br>
 
@@ -36,7 +36,7 @@
 
 ## Definitions
 
-* **SOP** - Standardized Operating Procedure
+* ***SOP*** - Standardized Operating Procedure
 
 <br>
 

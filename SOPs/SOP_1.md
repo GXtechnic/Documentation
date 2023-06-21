@@ -4,33 +4,33 @@
 
 ## Purpose
 
-* This document is the SOP for the onboarding of new employees
+* This ***SOP*** is to establish the standards and guidelines for the onboarding of new employees.
 
 <br>
 
 ## Scope
 
-* This SOP is to be used for onboarding new hires/employees.
+* This ***SOP*** is to be used by the IT department for the onboarding of new hires/employees.
 
 <br>
 
 ## Responsibilities
 
-* The IT department will be responsible for creating the accounts and related access to systems as part of the overall onboarding process. 
+* The IT department will be responsible for creating the accounts and related access to systems as part of the overall onboarding process.
 
 <br>
 
 ## Procedure
 
-* Include all needed information including usernames and passwords
+* Include all needed information including usernames and passwords.
 
-* Allow the new hire's user profile access into the current system
+* Allow the new hire's user profile access into the current system.
 
-* Initialize and add any needed servers, network drives, etc.
+* Initialize and add any needed servers, network drives, etc..
 
 * Add [Email Client Setup SOP](https://github.com/knonsense/Documentation/tree/dev/SOPs)
 
-* Add any other needed or requested programs and applications
+* Add any other needed or requested programs and applications.
 
 <br>
 
@@ -44,7 +44,7 @@
 
 ## Definitions
 
-* SOP - Standard Operating Procedure
+* ***SOP*** - ***S***tandard ***O***perating ***P***rocedure
 
 <br>
 
