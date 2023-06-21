@@ -16,7 +16,7 @@
 
 ## Responsibilities
 
-* The IT department will be responsible for removing and deleting the accounts and related access to systems as part of the termination of employee process.
+* The IT department will be responsible for removing and deleting the accounts and related access to systems as part of the termination of employee processes.
 
 <br>
 
@@ -34,7 +34,7 @@
 
 ## References
 
-* [Securely Dispose of Data](https://docs.google.com/document/d/1qaOVeaiqHOQHmHh9LnZrZX2WOdH1vHZ7_nDLOwAnlek/edit)
+* [Securely Dispose of Data](./SOP_8.md)
 
 * [SOPs](../SOPs/)
 
