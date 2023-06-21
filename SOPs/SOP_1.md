@@ -28,6 +28,10 @@
 
 * Initialize and add any needed servers, network drives, etc..
 
+<!---Changed to reflect current group name.
+
+* Add [Email Client Setup SOP](https://github.com/knonsense/Documentation/tree/dev/SOPs)-->
+
 * Add [Email Client Setup SOP](https://github.com/GXtechnic/Documentation/tree/main/SOPs)
 
 * Add any other needed or requested programs and applications.
@@ -37,6 +41,11 @@
 ## References
 
 * [SOPs](../SOPs/)
+
+
+<!---Changed to reflect current group name.
+
+* Add [Email Client Setup SOP](https://github.com/knonsense/Documentation/tree/dev/SOPs)-->
 
 * [Email Client Setup SOP](https://github.com/GXtechnic/Documentation/tree/main/SOPs)
 
@@ -50,7 +59,8 @@
 
 ## Revision History
 
-* Date mm/dd/yyyy First_Name Last_Name
+<!---changed the following line to represent format instead of current date -->
+<!---* Date mm/dd/yyyy First_Name Last_Name-->
 
 * 06/19/2023 - Raphael Chookagian
 * 06/20/2023 - Marcelo Clark

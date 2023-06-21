@@ -49,6 +49,8 @@
 
 ## References
 
+<!---The following links are to old Ops201 documents, do we have updated links to utilize instead?-->
+
 * [Network connectivity guide](https://docs.google.com/document/d/1VLcArFshXQOc83mTYLSrvzxAdJV0QGRttbriUhKnJd8/edit#heading=h.euyi6w8xahvc)
 
 * [pfSense guide](https://docs.google.com/document/d/1rELJwMH2R1L3TIMe35UzqGX_wh7L4ioX3bVu6piKYDc/edit?usp=sharing)
@@ -67,7 +69,8 @@
 
 ## Revision History
 
-* Date mm/dd/yyyy First_Name Last_Name
+<!---changed the following line to represent format instead of current date -->
+<!---* Date mm/dd/yyyy First_Name Last_Name-->
 
 * 06/19/2023 - Raphael Chookagian
 * 06/20/2023 - Raphael Chookagian

@@ -59,7 +59,8 @@
 
 ## Revision History
 
-* Date mm/dd/yyyy First_Name Last_Name
+<!---changed the following line to represent format instead of current date -->
+<!---* Date mm/dd/yyyy First_Name Last_Name-->
 
 * 6/20/2023 - Raphael Chookagian
 * 6/21/2023 - Raphael Chookagian
