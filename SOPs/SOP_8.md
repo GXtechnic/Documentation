@@ -59,5 +59,8 @@
 
 ## Revision History
 
-6/20/2023 - Raphael Chookagian
-6/21/2023 - Raphael Chookagian
+* Date mm/dd/yyyy First_Name Last_Name
+
+* 6/20/2023 - Raphael Chookagian
+* 6/21/2023 - Raphael Chookagian
+* 06/21/2023 - Justin R. Dotson
