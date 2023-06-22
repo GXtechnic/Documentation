@@ -4,7 +4,7 @@
 
 ## Purpose
 
-* This document outlines the SOP for securely disposing of data and sensitive information.
+* This document outlines the ***Standard Operating Procedures*** for securely disposing of data and sensitive information.
 
 <br>
 
@@ -22,8 +22,7 @@
 
 ## Prerequisites
 
-* The IT department is responsible for the implementation, maintenance and review of this policy. This will only be done by the IT department, following our set SOP.
-[SOPs](../SOPs/)
+* The IT department is responsible for the implementation, maintenance and review of this policy. This will only be done by the IT department, following our set [SOPs](../SOPs/).
 
 <br>
 
@@ -47,17 +46,21 @@
 
 * [RUFUS](https://rufus.ie/)
 
+* [SOPs](../SOPs/)
+
 <br>
 
 ## Definitions
 
 * ***SOP*** - ***S***tandard ***O***perating ***P***rocedure
 
-* ***DBAN*** - [DBAN](https://www.lifewire.com/how-to-erase-a-hard-drive-using-dban-2619148)
+* ***DBAN*** - [DBAN Tutorial](https://www.lifewire.com/how-to-erase-a-hard-drive-using-dban-2619148)
+
+* [***RUFUS***](https://rufus.ie/)
 
 <br>
 
 ## Revision History
 
-6/20/2023 - Raphael Chookagian
-6/21/2023 - Raphael Chookagian
+* 6/20/2023 - Raphael Chookagian
+* 6/21/2023 - Raphael Chookagian
