@@ -4,13 +4,13 @@
 
 ## Purpose
 
-* This SOP is to establish the standardized practices and guidelines for ensuring the network is secure and maintained properly.
+* This ***SOP*** is to establish the standardized practices and guidelines for ensuring the network is secure and maintained properly.
 
 <br>
 
 ## Scope
 
-* This SOP is to be performed and maintained by the IT department only.
+* This ***SOP*** is to be performed and maintained by the IT department only.
 
 <br>
 
@@ -49,11 +49,11 @@
 
 ## References
 
-* [Network connectivity guide](https://docs.google.com/document/d/1VLcArFshXQOc83mTYLSrvzxAdJV0QGRttbriUhKnJd8/edit#heading=h.euyi6w8xahvc)
+* [Network connectivity guide](./SOP_11.md)
 
-* [pfSense guide](https://docs.google.com/document/d/1rELJwMH2R1L3TIMe35UzqGX_wh7L4ioX3bVu6piKYDc/edit?usp=sharing)
+* [pfSense guide](./SOP_12.md)
 
-* [Log review and analysis guide](https://docs.google.com/document/d/16TP9OtI3wJnahwPr5ncKMYu3LCgk8Owx9WUUp-31zpI/edit#heading=h.jnbf42tnm52g)
+* [Log review and analysis guide](./SOP_13.md)
 
 <br>
 

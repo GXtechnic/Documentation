@@ -1,0 +1,49 @@
+# pfSense
+
+<br>
+
+## Purpose
+
+* This ***SOP*** is to establish the standards and guidelines for the setup and use of pfSense.
+
+<br>
+
+## Scope
+
+* This ***SOP*** is to be used by the IT department for the creation, management and control of pfSense routers, accounts and security.
+
+* The IT department is to maintain and keep firewalls, rules, directories and roles up to date as per security protocols.
+
+<br>
+
+## Responsibilities
+
+* The IT department will be responsible for creating any pfSense instances and related access to systems.
+
+* Specific user information and details will be made available per security protocols to keep sharing of sensitive data to a minimum.
+
+<br>
+
+## Procedure
+
+* [Download the pfSense .iso file.](https://www.pfsense.org/download/)
+
+* Create a new VM in VirtualBox and insert the pfSense .iso file. Boot into the installer and install pfSense.
+
+* Complete installation and setup per requirements and [SOP](../SOPs/)
+
+## References
+
+* [pfsense](https://www.pfsense.org/download/)
+
+* [How to install pfsense on VirtualBox](https://www.how2shout.com/how-to/install-pfsense-VirtualBox-linux-vmware-player.html)
+
+## Definitions
+
+* [pfsense](https://www.pfsense.org/download/)
+
+* [How to install pfsense on VirtualBox](https://www.how2shout.com/how-to/install-pfsense-VirtualBox-linux-vmware-player.html)
+
+## Revision History
+
+* 06/21/2023 - Raphael Chookagian

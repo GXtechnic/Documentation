@@ -10,13 +10,17 @@
 
 ## Scope
 
-* This ***SOP*** is to be used by the IT department for the onboarding of new hires/employees.
+* This ***SOP*** is to be used by the IT department for the onboarding of new hires/employees as needed.
+
+* The IT department is to maintain and keep directories and roles up to date as per security protocols.
 
 <br>
 
 ## Responsibilities
 
 * The IT department will be responsible for creating the accounts and related access to systems as part of the overall onboarding process.
+
+* Specific user information and details will be made avaiable per security protocols to keep sharing of sensitive data to a minimum.
 
 <br>
 
@@ -28,7 +32,7 @@
 
 * Initialize and add any needed servers, network drives, etc..
 
-* Add [Email Client Setup SOP](https://github.com/knonsense/Documentation/tree/dev/SOPs)
+* Add [Email Client Setup SOP](./SOP_9.md)
 
 * Add any other needed or requested programs and applications.
 
@@ -38,7 +42,7 @@
 
 * [SOPs](../SOPs/)
 
-* [Email Client Setup SOP](https://github.com/knonsense/Documentation/tree/dev/SOPs)
+* [Email Client Setup SOP](./SOP_9.md)
 
 <br>
 
@@ -50,7 +54,6 @@
 
 ## Revision History
 
-* Date 06/19/2023 First_Name Last_Name
 * 06/19/2023 - Raphael Chookagian
 * 06/20/2023 - Marcelo Clark
 * 06/21/2023 - Raphael Chookagian
