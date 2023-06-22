@@ -32,17 +32,23 @@
 
 * Complete installation and setup per requirements and [SOP](../SOPs/)
 
+<br>
+
 ## References
 
 * [pfsense](https://www.pfsense.org/download/)
 
 * [How to install pfsense on VirtualBox](https://www.how2shout.com/how-to/install-pfsense-VirtualBox-linux-vmware-player.html)
 
+<br>
+
 ## Definitions
 
 * [pfsense](https://www.pfsense.org/download/)
 
 * [How to install pfsense on VirtualBox](https://www.how2shout.com/how-to/install-pfsense-VirtualBox-linux-vmware-player.html)
+
+<br>
 
 ## Revision History
 

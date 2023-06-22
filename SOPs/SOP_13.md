@@ -50,9 +50,9 @@
 
 ## Definitions
 
-[Ten Windows Registry Hacks](https://www.howtogeek.com/669971/the-top-10-best-registry-hacks-for-windows-10/)
+* [Ten Windows Registry Hacks](https://www.howtogeek.com/669971/the-top-10-best-registry-hacks-for-windows-10/)
 
-[Windows Update Error Reference](https://docs.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference#windows-update-error-codes)
+* [Windows Update Error Reference](https://docs.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference#windows-update-error-codes)
 
 <br>
 
