@@ -26,7 +26,13 @@
 
 ## Procedure
 
+* Execute the "Adduserfinal" powershell script designed to add new employees.
+
 * Include all needed information including usernames and passwords.
+
+* Verify all information of the new hire is correct in the users organizational unit.
+
+* Relocate the new hire user to the correct organizational unit based on the department they will be working in i.e. sales, HR, management, etc. 
 
 * Allow the new hire's user profile access into the current system.
 
@@ -49,6 +55,7 @@
 ## Definitions
 
 * ***SOP*** - ***S***tandard ***O***perating ***P***rocedure
+* ***Organizational Unit*** - A container within a Microsoft Windows Active Directory (AD) domain that can hold users, groups and computers.
 
 <br>
 
