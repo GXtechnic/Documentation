@@ -21,17 +21,17 @@
   * Logical Network Design
     
     1. Globex Infrastrucutre
-        * Globex Cloud (via AWS VPC) - Globex's Corporate Cloud (GCC)
+      * Globex Cloud (via AWS VPC) - Globex's Corporate Cloud (GCC)
 
-          * Create 6 subnets
+        * Create 6 subnets
 
-            1. "Public Subnets" (2) - These public subnets will function as a buffer zone or a "DMZ" to safeguard our assets on the Globex Internal Network. Here we can station our servers (Web, Domain, File, etc.) that will be able to access the Internet. 
+            1. "Public Subnets" (1) - These public subnets will function as a buffer zone or a "DMZ" to safeguard our assets on the Globex Internal Network. Here we can station our servers (Web, Domain, File, etc.) that will be able to access the Internet. 
               
                * Globex VPN will connect here to allow transitioning assets access to our resources while migrating to our Internal Networks. They can be added to allowlists to facilitate this.
 
                * Most Contractors will connect to our VPN to this DMZ area. Only with special written authorization will contractors access the Internal Network (case-by-case basis only)  
 
-            2. "Private Subnets" (4) - These private subnets will comprise the Globex Internal Network Infrastrucutre (GINI). This network is where the heart of Globex will operate.
+            2. "Private Subnets" (1) - These private subnets will comprise the Globex Internal Network Infrastrucutre (GINI). This network is where the heart of Globex will operate.
 
     2. Transitioning Partner former Infrastructure
         * On Premise Facilities
@@ -48,3 +48,6 @@
 Evaluation Result & Discussion
 
   1. Yearly Assessment
+
+Version Control:
+06/21/2023 - Ben Hobbs
