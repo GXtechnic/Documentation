@@ -23,20 +23,45 @@
     1. Globex Infrastrucutre
       * Globex Cloud (via AWS VPC) - Globex's Corporate Cloud (GCC)
 
-        * Create 6 subnets
+        * Create subnets
 
-            1. "Public Subnets" (1) - These public subnets will function as a buffer zone or a "DMZ" to safeguard our assets on the Globex Internal Network. Here we can station our servers (Web, Domain, File, etc.) that will be able to access the Internet. 
+            1. "Public Subnets" (1) - Our public subnets will function as a buffer zone or a "DMZ" to safeguard our assets on the Globex Internal Network. Here we can station our servers (Web, Domain, File, etc.) that will be able to access the Internet. 
               
                * Globex VPN will connect here to allow transitioning assets access to our resources while migrating to our Internal Networks. They can be added to allowlists to facilitate this.
 
                * Most Contractors will connect to our VPN to this DMZ area. Only with special written authorization will contractors access the Internal Network (case-by-case basis only)  
 
-            2. "Private Subnets" (1) - These private subnets will comprise the Globex Internal Network Infrastrucutre (GINI). This network is where the heart of Globex will operate.
+            2. "Private Subnets" (1) - Our private subnets will comprise the Globex Internal Network Infrastrucutre (GINI). This network is where the heart of Globex will operate.
+
+             *  These private subnets will be further broken down to the Business Unit Level
+
+               * Organization Units or Departments within Business Units can be segmented via VLAN
 
     2. Transitioning Partner former Infrastructure
         * On Premise Facilities
         * Cloud Architecture
         * VPN access
+
+    3. Logical Network Elements
+
+| Network Element Name | Description | IP Address (CIDR) | Operating System (OS) | Notes |
+|:----------------------:|:-----------------------:|:----------------------:|:----------------------:|:----------------------:|
+Globex VPC | Globex Corporate Network | 18.207.157.243/16 | AWS VPC | Example note |
+GX Public subnet | Globex DMZ1 |10.0.0.0/17 | AWS VPC | what else here? | 
+GX Private subnet | Globex Internal | 10.0.128.0/17 | AWS VPC | note3 | 
+Globex IGW | | 10.0.0.0/16 | AWS IGW | | 
+EC2-1 | Public subnet instance | 18.207.157.243 | AWS EC2 (AMI Linux) | 
+EC2-2 | Private subnet instance | 10.0.221.100 | AWS EC2 (AMI Linux) |
+EC2-3 | GreenGenius | 35.168.112.89 | AWS EC2 (AMI Linux) | 
+ | Globex Domain Controller | Active Server Directory | | Windows 19 Server 
+
+
+ | Firewall 1 (Private Subnet to Public Subnet)
+ |:-----------------:|:----------------------:|:---------------------:|:------------------:|:----------------------:| Rule | Source | Destination | Port | Notes |
+ Allow | | 255.255.255.255/32 | AWS VPC | Note1 |
+
+| DHCP | Description | IP Address (CIDR) | Operating System (OS) | Notes |
+|:----------------------:|:-----------------------:|:----------------------:|:----------------------:|:----------------------:|
 
   * Physical Network Design
     

@@ -4,7 +4,7 @@
 
 ## Purpose
 
-* To ensure consistent and efficient troubleshooting practices to resolve technical issues effectively.
+* This SOP is to establish and ensure consistent and efficient troubleshooting practices to resolve technical issues effectively.
 
 <br>
 
@@ -88,13 +88,12 @@
 
 ## Definitions
 
-**SOP** - Standard Operating Procedure
-These are the guidelines and rules we follow for a given task.
+* ***SOP*** - ***S***tandard ***O***perating ***P***rocedure
 
 <br>
 
 ## Revision History
 
-* Date 06/19/2023 First_Name Last_Name
 * 06/19/2023 - Raphael Chookagian
 * 06/20/2023 - Raphael Chookagian
+* 06/21/2023 - Raphael Chookagian
