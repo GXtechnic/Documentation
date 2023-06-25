@@ -1,4 +1,4 @@
-# How will you monitor network traffic?
+# SOP 1.5- Network Traffic Monitoringon Globex Domains
 
 <br>
 
@@ -45,3 +45,4 @@
 * 06/19/2023 - Raphael Chookagian
 * 06/20/2023 - Raphael Chookagian
 * 06/21/2023 - Raphael Chookagian
+* 06/24/2023 - Ben Hobbs

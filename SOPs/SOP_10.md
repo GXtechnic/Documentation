@@ -1,4 +1,4 @@
-# Workstation Deployment SOP
+# SOP 1.10- Network Workstation Deployment
 
 <br>
 
@@ -51,3 +51,4 @@
 ## Revision History
 
 * 06/21/2023 - Raphael Chookagian
+* 06/24/2023 - Ben Hobbs

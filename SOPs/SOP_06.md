@@ -1,4 +1,4 @@
-# How will you manage change to the network (such as hardware, software, or configuration changes) while minimizing network disruptions and downtime?
+# SOP 1.6- Network Change Management
 
 <br>
 
@@ -97,3 +97,4 @@
 * 06/19/2023 - Raphael Chookagian
 * 06/20/2023 - Raphael Chookagian
 * 06/21/2023 - Raphael Chookagian
+* 06/24/2023 - Ben Hobbs 

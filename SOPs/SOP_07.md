@@ -1,4 +1,4 @@
-# How will you manage and maintain network security?
+# SOP 1.7- Network Security
 
 <br>
 
@@ -49,11 +49,11 @@
 
 ## References
 
-* [Network connectivity guide](./SOP_11.md)
+* [SOP 1.11- Network Connectivity](./SOP_11.md)
 
-* [pfSense guide](./SOP_12.md)
+* [SOP 1.12- Globex Administration of pfSense](./SOP_12.md)
 
-* [Log review and analysis guide](./SOP_13.md)
+* [SOP 1.13- Network System Log Analysis and Registry](./SOP_13.md)
 
 <br>
 
@@ -70,3 +70,4 @@
 * 06/19/2023 - Raphael Chookagian
 * 06/20/2023 - Raphael Chookagian
 * 06/21/2023 - Raphael Chookagian
+* 06/24/2023 - Ben Hobbs

@@ -1,18 +1,18 @@
 # SOPs Table of Contents
 
-## [SOP 1.1- Network Account Onboarding at Globex](./SOPs_1.md)
+## [SOP 1.1- Network Account Onboarding at Globex](./SOPs_01.md)
 
-## [SOP 1.2- Network Account Termination at Globex](./SOPs_2.md)
+## [SOP 1.2- Network Account Termination at Globex](./SOPs_02.md)
 
-## [SOP 1.3- Version Control on Globex Network Infrastructure](./SOPs_3.md)
+## [SOP 1.3- Version Control on Globex Network Infrastructure](./SOPs_03.md)
 
-## [SOP 1.4- Network File Access Throughout Globex Domains](./SOPs_4.md)
+## [SOP 1.4- Network File Access Throughout Globex Domains](./SOPs_04.md)
 
-## [SOP 1.5- Network Traffic Monitoringon Globex Domains](./SOPs_5.md)
+## [SOP 1.5- Network Traffic Monitoringon Globex Domains](./SOPs_05.md)
 
-## [SOP 1.6- Network Change Management](./SOPs_6.md)
+## [SOP 1.6- Network Change Management](./SOPs_06.md)
 
-## [SOP 1.7- Network Security](./SOPs_7.md)
+## [SOP 1.7- Network Security](./SOPs_07.md)
 
 ## [SOP 1.8- Secure Data Disposal](./SOPs_08.md)
 

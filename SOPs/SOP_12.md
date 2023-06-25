@@ -1,4 +1,4 @@
-# pfSense
+# SOP 1.12- Globex Administration of pfSense
 
 <br>
 
@@ -53,3 +53,4 @@
 ## Revision History
 
 * 06/21/2023 - Raphael Chookagian
+* 06/24/2023 - Ben Hobbs

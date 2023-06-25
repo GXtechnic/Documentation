@@ -1,4 +1,4 @@
-# Gmail Account and Thunderbird Client Install SOP
+# SOP 1.9- Electronic Mail Management on Globex Domains
 
 <br>
 
@@ -89,3 +89,4 @@ Click "Done" to complete the setup process.
 ## Revision History
 
 * 06/21/2023 - Raphael Chookagian
+* 06/24/2023 - Ben Hobbs

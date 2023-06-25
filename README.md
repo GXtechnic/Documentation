@@ -30,19 +30,19 @@ This repository contains all documentation related to this project,  including o
 
 ## SOPs Table of Contents
 
-* ***[SOP 1.1- Network Account Onboarding at Globex](./SOPs/SOP_1.md)***
+* ***[SOP 1.1- Network Account Onboarding at Globex](./SOPs/SOP_01.md)***
 
-* ***[SOP 1.2- Network Account Termination at Globex](./SOPs/SOP_2.md)***
+* ***[SOP 1.2- Network Account Termination at Globex](./SOPs/SOP_02.md)***
 
-* ***[SOP 1.3- Version Control on Globex Network Infrastructure](./SOPs/SOP_3.md)***
+* ***[SOP 1.3- Version Control on Globex Network Infrastructure](./SOPs/SOP_03.md)***
 
-* ***[SOP 1.4- Network File Access Throughout Globex Domains](./SOPs/SOP_4.md)***
+* ***[SOP 1.4- Network File Access Throughout Globex Domains](./SOPs/SOP_04.md)***
 
-* ***[SOP 1.5- Network Traffic Monitoringon Globex Domains](./SOPs/SOP_5.md)***
+* ***[SOP 1.5- Network Traffic Monitoringon Globex Domains](./SOPs/SOP_05.md)***
 
-* ***[SOP 1.6- Network Change Management](./SOPs/SOP_6.md)***
+* ***[SOP 1.6- Network Change Management](./SOPs/SOP_06.md)***
 
-* ***[SOP 1.7- Network Security](./SOPs/SOP_7.md)***
+* ***[SOP 1.7- Network Security](./SOPs/SOP_07.md)***
 
 <br>
 

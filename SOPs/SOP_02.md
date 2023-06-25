@@ -1,4 +1,4 @@
-# How will network account needs be handled for employees being terminated?
+# SOP 1.2- Network Account Termination at Globex
 
 <br>
 
@@ -34,7 +34,7 @@
 
 ## References
 
-* [Securely Dispose of Data](./SOP_8.md)
+* [SOP 1.8- Secure Data Disposal](./SOP_08.md)
 
 * [SOPs](../SOPs/)
 
@@ -55,3 +55,4 @@
 * 06/19/2023 - Raphael Chookagian
 * 06/20/2023 - Marcelo Clark
 * 06/21/2023 - Raphael Chookagian
+* 06/24/2023 - Ben Hobbs
