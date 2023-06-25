@@ -1,4 +1,4 @@
-# Network Architecture Design Statement1 
+# Network Architecture Design Statement
 
 ## Executive Summary
 
