@@ -8,7 +8,7 @@
 
 ## [SOP 1.4: Network File Access Throughout Globex Domains](https://github.com/GXtechnic/Documentation/blob/main/SOPs/SOP_04.md)
 
-## [SOP 1.5: Network Traffic Monitoringon Globex Domains](https://github.com/GXtechnic/Documentation/blob/main/SOPs/SOP_05.md)
+## [SOP 1.5: Network Traffic Monitoring on Globex Domains](https://github.com/GXtechnic/Documentation/blob/main/SOPs/SOP_05.md)
 
 ## [SOP 1.6: Network Change Management](https://github.com/GXtechnic/Documentation/blob/main/SOPs/SOP_06.md)
 

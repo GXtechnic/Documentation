@@ -48,7 +48,7 @@ Globex has several needs to meet when designing network architecture to scale:
               
             * Globex Virtual Private Network (VPN) will connect here via Virtual Private Gateway (VGW) to enhance security while allowing transitioning assets access to our resources during migration to our Internal Networks. They can be added to Security Group (SG) allowlists to facilitate this.
 
-            * The VPN will have a Captive Portal enabled on it to increase Globex's security posture via Defense in Depth. Use of this Captive Portal will ensure that access is only achieved by users with authorization granted by the Domain Controller and being validentified and authenticated. 
+            * The VPN will have a Captive Portal enabled on it to increase Globex's security posture via Defense in Depth. Use of this Captive Portal will ensure that access is only achieved by users with authorization granted by the Domain Controller and the Captive portal in conjunction with Active Directory will identify and authenticate the user seeking access. 
 
             * Most Contractors will connect to our VPN to this DMZ area. Only with special written authorization will contractors access the Internal Network (case-by-case basis only)  
 
@@ -103,3 +103,4 @@ Allow | | 255.255.255.255/32 | AWS VPC | Note1 |
 ## Version Control:
 * 06/21/2023 - Ben Hobbs
 * 06/24/2023 - Ben Hobbs
+* 06/25/2023 - Ben Hobbs
