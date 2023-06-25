@@ -22,10 +22,10 @@ This repository contains all documentation related to this project,  including o
 <!-- | [SOPs](https://github.com/GXtechnic/Documentation/SOPs) | -->
 | [SOPs](./SOPs/) |
 |:-----------------------:|
-|  [System Selection](Team_Documents/SystemSelection.md) |
-| [Team Agreement](Team_Documents/TeamAgreement.md) | 
+|  [System Selection](https://github.com/GXtechnic/Documentation/blob/main/Team_Documents/System_Selection.md) |
+| [Team Agreement](https://github.com/GXtechnic/Documentation/blob/main/Team_Documents/Team_Agreement.md) | 
 | [Network Topology](https://github.com/GXtechnic/Documentation/blob/main/Topology/Topology_v1.png) |
-| [Network Architecture Design Statement](https://github.com/GXtechnic/Documentation/blob/main/Team_Documents/Network_Statement.md) |
+| [Network Architecture Design Statement](https://github.com/GXtechnic/Documentation/blob/main/Team_Documents/Network%20Statement.md) |
 
 
 ## SOPs Table of Contents
