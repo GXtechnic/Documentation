@@ -1,20 +1,20 @@
-# SOP 1.7- Network Security
+# SOP 1.7: Network Security
 
 <br>
 
-## Purpose
+## Purpose:
 
-* This ***SOP*** is to establish the standardized practices and guidelines for ensuring the network is secure and maintained properly.
+* This ***Standard Operating Procedure (SOP)*** is to establish standards and guidelines for network security on the Globex Network Infrastructure.
 
 <br>
 
-## Scope
+## Scope:
 
 * This ***SOP*** is to be performed and maintained by the IT department only.
 
 <br>
 
-## Responsibilities
+## Responsibilities:
 
 * Implement and maintain network upgrades based on best practices.
 
@@ -24,7 +24,7 @@
 
 <br>
 
-## Procedure
+## Procedure:
 
 * Design the architecture based on end-user needs, budget, and any other relevant considerations.
 
@@ -47,17 +47,17 @@
 
 <br>
 
-## References
+## References:
 
-* [SOP 1.11- Network Connectivity](./SOP_11.md)
+* [SOP 1.11: Network Connectivity](./SOP_11.md)
 
-* [SOP 1.12- Globex Administration of pfSense](./SOP_12.md)
+* [SOP 1.12: Globex Administration of pfSense](./SOP_12.md)
 
-* [SOP 1.13- Network System Log Analysis and Registry](./SOP_13.md)
+* [SOP 1.13: Network System Log Analysis and Registry](./SOP_13.md)
 
 <br>
 
-## Definitions
+## Definitions:
 
 * ***Network Infrastructure*** - The hardware, software, and protocols that enable the communication and connectivity within an organization's network.
 
@@ -65,9 +65,10 @@
 
 <br>
 
-## Revision History
+## Revision History:
 
-* 06/19/2023 - Raphael Chookagian
+* 06/19/2023 - "SOP_07.md" created by Raphael Chookagian
 * 06/20/2023 - Raphael Chookagian
 * 06/21/2023 - Raphael Chookagian
 * 06/24/2023 - Ben Hobbs
+* 06/25/2023 - Ben Hobbs

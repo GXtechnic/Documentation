@@ -4,7 +4,7 @@
 
 ## Purpose
 
-* This SOP is to establish and ensure consistent and efficient troubleshooting practices to resolve technical issues effectively.
+* This ***Standard Operating Procedure (SOP)*** is to establish standards and guidelines for the consistent and efficient implementation of changes to the Globex Network Infrastructure.
 
 <br>
 
@@ -82,6 +82,8 @@
 
 ## References
 
+[Globex Change Management Policy](https://cissprep.net/configuration-management/)
+
 [SOPs](../SOPs/)
 
 <br>
@@ -94,7 +96,7 @@
 
 ## Revision History
 
-* 06/19/2023 - Raphael Chookagian
+* 06/19/2023 - "SOP_06.md" created by Raphael Chookagian
 * 06/20/2023 - Raphael Chookagian
 * 06/21/2023 - Raphael Chookagian
 * 06/24/2023 - Ben Hobbs 

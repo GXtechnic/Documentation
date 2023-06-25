@@ -1,26 +1,26 @@
-# SOP 1.9- Electronic Mail Management on Globex Domains
+# SOP 1.9: Electronic Mail Management on Globex Domains
 
 <br>
 
-## Purpose
+## Purpose:
 
-The purpose of this SOP is to provide step-by-step instructions for IT administrators to create Gmail accounts, and install Thunderbird Email Client.
+* This ***Standard Operating Procedure (SOP)*** is to establish standards and guidelines for creating Electronic mail (email) accounts on the Globex Network Infrastructure.
 
 <br>
 
-## Scope
+## Scope:
 
 * This SOP is applicable to all IT administrators responsible for setting up new user accounts for the organization.
 
 <br>
 
-## Responsibilities
+## Responsibilities:
 
 * The IT department will be responsible for maintenance, updates, patches, etc.
 
 <br>
 
-## Prerequisites
+## Prerequisites:
 
 * New computer with Mac OS or Windows 10 Operating System
 * Stable internet connection
@@ -28,7 +28,7 @@ The purpose of this SOP is to provide step-by-step instructions for IT administr
 
 <br>
 
-## Procedure
+## Procedure:
 
 ***Creating Gmail Accounts***
 
@@ -72,7 +72,7 @@ Click "Done" to complete the setup process.
 
 <br>
 
-## References
+## References:
 
 * [Gmail](https://mail.google.com/?)
 
@@ -80,13 +80,15 @@ Click "Done" to complete the setup process.
 
 <br>
 
-## Definitions
+## Definitions:
 
 * ***SOP*** - ***S***tandard ***O***perating ***P***rocedure
 
 <br>
 
-## Revision History
+## Revision History:
 
+* 06/19/2023 - "SOP_09.md" created by Raphael Chookagian
 * 06/21/2023 - Raphael Chookagian
 * 06/24/2023 - Ben Hobbs
+* 06/25/2023 - Ben Hobbs
