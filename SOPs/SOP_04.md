@@ -4,7 +4,7 @@
 
 ## Purpose
 
-* This ***SOP*** is to establish the standard for our Active Directory system for company, groups and users.
+* This ***Standard Operating Procedure (SOP)*** is to establish standards and guidelines for network file access on the Globex Network Infrastructure. This includes setting procedures for use of Active Directory (AD).
 
 <br>
 
@@ -40,7 +40,7 @@
 
 ## Revision History
 
-* 06/19/2023 - Raphael Chookagian
+* 06/19/2023 - "SOP_04.md" created by Raphael Chookagian
 * 06/20/2023 - Raphael Chookagian
 * 06/21/2023 - Raphael Chookagian
 * 06/24/2023 - Ben Hobbs

@@ -1,20 +1,20 @@
-# SOP 1.13- Network System Log Analysis and Registry
+# SOP 1.13: Network System Log Analysis and Registry
 
 <br>
 
-## Purpose
+## Purpose:
 
-* Purpose of this SOP is to outline the process for system log analysis and registry.
+* This ***Standard Operating Procedure (SOP)*** is to establish standards and guidelines for the configuration and employment of system logs on the Globex Network Infrastructure. Guidance for the registry configurations and settings is also provided.
 
 <br>
 
-## Scope
+## Scope:
 
 * To establish a standardized and reliable method for performing regular accounting and system log analysis.
 
 <br>
 
-## Responsibilities
+## Responsibilities:
 
 * The IT department will be the only authorized department responsible for and access to system logs and registries.
 
@@ -22,7 +22,7 @@
 
 <br>
 
-## Procedures
+## Procedures:
 
 * First, create a System Restore Point.
 * Identify where Windows saves its registry files.
@@ -40,7 +40,7 @@
 
 <br>
 
-## References
+## References:
 
 [Ten Windows Registry Hacks](https://www.howtogeek.com/669971/the-top-10-best-registry-hacks-for-windows-10/)
 
@@ -48,7 +48,7 @@
 
 <br>
 
-## Definitions
+## Definitions:
 
 * [Ten Windows Registry Hacks](https://www.howtogeek.com/669971/the-top-10-best-registry-hacks-for-windows-10/)
 
@@ -56,7 +56,9 @@
 
 <br>
 
-## Revision History
+## Revision History:
 
+* 06/19/2023 - "SOP_13.md" created by Raphael Chookagian
 * 06/21/2023 - Raphael Chookagian
 * 06/24/2023 - Ben Hobbs
+* 06/25/2023 - Ben Hobbs

@@ -1,26 +1,26 @@
-# SOP 1.11- Network Connectivity
+# SOP 1.11: Network Connectivity
 
 <br>
 
-## Purpose
+## Purpose:
 
-* This ***SOP*** is to establish the standards and guidelines for establishing network connectivity.
+* This ***Standard Operating Procedure (SOP)*** is to establish standards and guidelines for network connectivity on the Globex Network Infrastructure.
 
 <br>
 
-## Scope
+## Scope:
 
 * This ***SOP*** is applicable to all IT administrators responsible for setting up new and/or maintaining current networks.
 
 <br>
 
-## Responsibilities
+## Responsibilities:
 
 * The IT department will be responsible for maintainence and security for networks and associated accounts, software and hardware.
 
 <br>
 
-## Procedure
+## Procedure:
 
 * Check IP Addresses [guide](https://itsfoss.com/check-ip-address-ubuntu/)
   * Compare the IP addresses: ("Lab kit pc" and "personal pc")
@@ -43,7 +43,7 @@
 
 <br>
 
-## References
+## References:
 
 * [DHCP Reservation](https://homenetworkadmin.com/dhcp-reservation/)
 
@@ -53,7 +53,7 @@
 
 <br>
 
-## Definitions
+## Definitions:
 
 * [DHCP Reservation](https://homenetworkadmin.com/dhcp-reservation/)
 
@@ -63,7 +63,9 @@
 
 <br>
 
-## Revision History
+## Revision History:
 
+* 06/19/2023 - "SOP_11.md" created by Raphael Chookagian
 * 06/21/2023 - Raphael Chookagian
 * 06/24/2023 - Ben Hobbs
+* 06/25/2023 - Ben Hobbs

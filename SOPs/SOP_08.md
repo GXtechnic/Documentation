@@ -1,32 +1,32 @@
-# SOP 1.8- Secure Data Disposal
+# SOP 1.8: Secure Data Disposal
 
 <br>
 
-## Purpose
+## Purpose:
 
-* This document outlines the ***Standard Operating Procedures*** for securely disposing of data and sensitive information.
+* This ***Standard Operating Procedure (SOP)*** is to establish standards and guidelines for securely disposing of data and sensitive information from the Globex Network Infrastructure.
 
 <br>
 
-## Scope
+## Scope:
 
 * The IT department is responsible for and maintaining all security and disposal of data, information, and any relevent data to the business.
 
 <br>
 
-## Responsibilities
+## Responsibilities:
 
 * The IT department is responsible for the implementation, maintenance and review of this policy.
 
 <br>
 
-## Prerequisites
+## Prerequisites:
 
 * The IT department is responsible for the implementation, maintenance and review of this policy. This will only be done by the IT department, following our set [SOPs](../SOPs/).
 
 <br>
 
-## Procedure
+## Procedure:
 
 * Backup important data
 
@@ -40,7 +40,7 @@
 
 <br>
 
-## References
+## References:
 
 * [DBAN](https://sourceforge.net/projects/dban/)
 
@@ -50,7 +50,7 @@
 
 <br>
 
-## Definitions
+## Definitions:
 
 * ***SOP*** - ***S***tandard ***O***perating ***P***rocedure
 
@@ -60,7 +60,9 @@
 
 <br>
 
-## Revision History
+## Revision History:
 
-* 6/20/2023 - Raphael Chookagian
-* 6/21/2023 - Raphael Chookagian
+* 06/19/2023 - "SOP_08.md" created by Raphael Chookagian
+* 06/21/2023 - Raphael Chookagian
+* 06/24/2023 - Ben Hobbs
+* 06/25/2023 - Ben Hobbs

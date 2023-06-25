@@ -1,20 +1,20 @@
-# SOP 1.10- Network Workstation Deployment
+# SOP 1.10: Network Workstation Deployment
 
 <br>
 
-## Purpose
+## Purpose:
 
-* This ***SOP*** is to establish the standards and guidelines for workstation deployments.
+* This ***Standard Operating Procedure (SOP)*** is to establish standards and guidelines for deploying workstations on the Globex Network Infrastructure.
 
 <br>
 
-## Scope
+## Scope:
 
 * This ***SOP*** is applicable to all IT administrators responsible for setting up new computers and workstations for the organization.
 
 <br>
 
-## Responsibilities
+## Responsibilities:
 
 * The IT department will be responsible for creating the accounts and related access to systems.
 
@@ -22,7 +22,7 @@
 
 <br>
 
-## Procedure
+## Procedure:
 
 * Create a new Windows 10 VM/OS (relevant OS per roles and [SOP](../SOPs/) guidelines.)
 
@@ -34,7 +34,7 @@
 
 <br>
 
-## References
+## References:
 
 * [SOP new employee example](https://github.com/codefellows/seattle-ops-201d8/blob/main/class-09/lab/SOP-new-employee.md)
 
@@ -42,13 +42,15 @@
 
 <br>
 
-## Definitions
+## Definitions:
 
 * ***SOP*** - ***S***tandard ***O***perating ***P***rocedure
 
 <br>
 
-## Revision History
+## Revision History:
 
+* 06/19/2023 - "SOP_10.md" created by Raphael Chookagian
 * 06/21/2023 - Raphael Chookagian
 * 06/24/2023 - Ben Hobbs
+* 06/25/2023 - Ben Hobbs

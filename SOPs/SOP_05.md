@@ -1,10 +1,10 @@
-# SOP 1.5- Network Traffic Monitoringon Globex Domains
+# SOP 1.5: Network Traffic Monitoring on Globex Domains
 
 <br>
 
 ## Purpose
 
-* This ***SOP*** is to establish a standardized process for handling the monitoring of network traffic.
+* This ***Standard Operating Procedure (SOP)*** is to establish standards and guidelines for the   handling the monitoring of network traffic on the Globex Network Infrastructure.
 
 <br>
 
@@ -42,7 +42,8 @@
 
 ## Revision History
 
-* 06/19/2023 - Raphael Chookagian
+* 06/19/2023 - "SOP_05.md" created by Raphael Chookagian
 * 06/20/2023 - Raphael Chookagian
 * 06/21/2023 - Raphael Chookagian
 * 06/24/2023 - Ben Hobbs
+* 06/25/2023 - Ben Hobbs

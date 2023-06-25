@@ -1,14 +1,14 @@
-# SOP 1.12- Globex Administration of pfSense
+# SOP 1.12: Globex Administration of pfSense
 
 <br>
 
-## Purpose
+## Purpose:
 
-* This ***SOP*** is to establish the standards and guidelines for the setup and use of pfSense.
+* This ***Standard Operating Procedure (SOP)*** is to establish standards and guidelines for the use of pfSense on the Globex Network Infrastructure.
 
 <br>
 
-## Scope
+## Scope:
 
 * This ***SOP*** is to be used by the IT department for the creation, management and control of pfSense routers, accounts and security.
 
@@ -16,7 +16,7 @@
 
 <br>
 
-## Responsibilities
+## Responsibilities:
 
 * The IT department will be responsible for creating any pfSense instances and related access to systems.
 
@@ -24,7 +24,7 @@
 
 <br>
 
-## Procedure
+## Procedure:
 
 * [Download the pfSense .iso file.](https://www.pfsense.org/download/)
 
@@ -34,7 +34,7 @@
 
 <br>
 
-## References
+## References:
 
 * [pfsense](https://www.pfsense.org/download/)
 
@@ -42,7 +42,7 @@
 
 <br>
 
-## Definitions
+## Definitions:
 
 * [pfsense](https://www.pfsense.org/download/)
 
@@ -50,7 +50,9 @@
 
 <br>
 
-## Revision History
+## Revision History:
 
+* 06/19/2023 - "SOP_12.md" created by Raphael Chookagian
 * 06/21/2023 - Raphael Chookagian
 * 06/24/2023 - Ben Hobbs
+* 06/25/2023 - Ben Hobbs
