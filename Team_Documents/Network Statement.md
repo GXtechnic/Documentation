@@ -67,7 +67,7 @@ Globex has several needs to meet when designing network architecture to scale:
   2. Existing Logical Network Element Details (Globex)
 
 | Network Element Name | Description | IP Address (CIDR) | Operating System (OS) | Notes |
-|:----------------------:|:-----------------------:|:----------------------:|:----------------------:|:----------------------:|
+|:----------------:|:---------------:|:---------------:|:---------------:|:-----------------:|
 Globex VPC | Globex Corporate Network | 18.207.157.243/16 | AWS VPC | Example note |
 GX Public subnet | Globex DMZ1 |10.0.0.0/17 | AWS VPC | what else here? | 
 GX Private subnet | Globex Internal | 10.0.128.0/17 | AWS VPC | note3 | 
@@ -78,11 +78,14 @@ EC2-3 | GreenGenius | 35.168.112.89 | AWS EC2 (AMI Linux) |
  | Globex Domain Controller | Active Server Directory | | Windows 19 Server 
 
 
-| AWS Security Group1 (Private Subnet to Public Subnet) |:------------:|:-------------:|:---------------------:|:------------------:|:----------------------:| Rule | Source | Destination | Port | Notes |
- Allow | | 255.255.255.255/32 | AWS VPC | Note1 |
+| AWS Security Group1 (Private Subnet to Public Subnet) |
+|:-----------------------------------------------------:|
+|:-----------:|:--------------:|:---------------:|:---------------:| 
+Rule | Source | Destination | Port | Notes |
+Allow | | 255.255.255.255/32 | AWS VPC | Note1 |
 
 | DHCP | Description | IP Address (CIDR) | Operating System (OS) | Notes |
-|:----------------------:|:-----------------------:|:----------------------:|:----------------------:|:----------------------:|
+|:----------------:|:----------------:|:-------------:|:---------------:|:-------------:|
   
   
   4. 
