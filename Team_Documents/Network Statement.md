@@ -1,4 +1,4 @@
-# GXTechnic Network Architecture Statement 
+# Network Architecture Design Statement1 
 
 ## Executive Summary
 
