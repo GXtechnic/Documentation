@@ -4,7 +4,7 @@
 
 # Welcome to our Documentation repository
 
-This repository will contain all of the documentation related to this project. This will include our team agreement document, system selection document and our growing cache of SOPs. Below you will find our team members with links to thier Linkedin and Github profiles. We have also added links to our Trello project management board as well as other related information.
+This repository contains all documentation related to this project,  including our Team Agreement document, System Selection document, and all Standard Operating Procedures (SOPs). GXTechnic's team member roster is also available, listed with links to their Linkedin and Github profiles. The Trello project management tool we employed is also available.
 
 <br>
 
@@ -23,7 +23,10 @@ This repository will contain all of the documentation related to this project. T
 | [SOPs](./SOPs/) |
 |:-----------------------:|
 |  [System Selection](Team_Documents/SystemSelection.md) |
-| [Team Agreement](Team_Documents/TeamAgreement.md) |
+| [Team Agreement](Team_Documents/TeamAgreement.md) | 
+| [Network Topology](https://github.com/GXtechnic/Documentation/blob/main/Topology/Topology_v1.png) |
+| [Network Architecture Design Statement](https://github.com/GXtechnic/Documentation/blob/main/Team_Documents/Network_Statement.md) |
+
 
 ## SOPs Table of Contents
 
@@ -32,7 +35,6 @@ This repository will contain all of the documentation related to this project. T
 * ***[SOP 1.2- Network Account Termination at Globex](./SOPs/SOP_2.md)***
 
 * ***[SOP 1.3- Version Control on Globex Network Infrastructure](./SOPs/SOP_3.md)***
-  * Hint: Read Windows Server Update Services
 
 * ***[SOP 1.4- Network File Access Throughout Globex Domains](./SOPs/SOP_4.md)***
 
@@ -52,7 +54,7 @@ This repository will contain all of the documentation related to this project. T
 
 ## Presentations
 
-[Slideshow Presentation](https://docs.google.com/presentation/d/1rXoVMHw0sstGkOP7tk08IB_vvO04RRumBPlRd-BJ2n4/edit?usp=sharing)
+[Presentation Slide Deck](https://docs.google.com/presentation/d/1rXoVMHw0sstGkOP7tk08IB_vvO04RRumBPlRd-BJ2n4/edit?usp=sharing)
 
 [Video]()
 
