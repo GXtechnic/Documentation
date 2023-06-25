@@ -1,4 +1,4 @@
-# System Log Analysis and Registry
+# SOP 1.13- Network System Log Analysis and Registry
 
 <br>
 
@@ -59,3 +59,4 @@
 ## Revision History
 
 * 06/21/2023 - Raphael Chookagian
+* 06/24/2023 - Ben Hobbs

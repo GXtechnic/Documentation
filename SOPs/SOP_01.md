@@ -1,4 +1,4 @@
-# How will network account needs be handled for employees being onboarded?
+# SOP 1.1- Network Account Onboarding at Globex
 
 <br>
 
@@ -38,7 +38,7 @@
 
 * Initialize and add any needed servers, network drives, etc..
 
-* Add [Email Client Setup SOP](./SOP_9.md)
+* Add [Email Client Setup SOP](./SOP_09.md)
 
 * Add any other needed or requested programs and applications.
 
@@ -48,7 +48,7 @@
 
 * [SOPs](../SOPs/)
 
-* [Email Client Setup SOP](./SOP_9.md)
+* [SOP 1.9- Electronic Mail Management on Globex Domains](./SOP_09.md)
 
 <br>
 
@@ -64,3 +64,4 @@
 * 06/19/2023 - Raphael Chookagian
 * 06/20/2023 - Marcelo Clark
 * 06/21/2023 - Raphael Chookagian
+* 06/24/2023 - Ben Hobbs

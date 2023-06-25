@@ -1,6 +1,4 @@
-# How will OS version control be handled?
-
-* *Hint: Read Windows Server Update Services.*
+# SOP 1.3- Version Control on Globex Network Infrastructure
 
 <br>
 
@@ -47,3 +45,4 @@
 * 06/19/2023 - Raphael Chookagian
 * 06/20/2023 - Marcelo Clark
 * 06/21/2023 - Raphael Chookagian
+* 06/24/2023 - Ben Hobbs

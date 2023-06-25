@@ -1,4 +1,4 @@
-# How will you ensure users can access their files from any domain attached system?
+# SOP 1.4- Network File Access Throughout Globex Domains
 
 <br>
 
@@ -43,3 +43,4 @@
 * 06/19/2023 - Raphael Chookagian
 * 06/20/2023 - Raphael Chookagian
 * 06/21/2023 - Raphael Chookagian
+* 06/24/2023 - Ben Hobbs
