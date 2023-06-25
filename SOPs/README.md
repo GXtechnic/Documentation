@@ -1,27 +1,27 @@
 # SOPs Table of Contents
 
-## [How will network account needs be handled for employees being onboarded?](./SOP_1.md)
+## [SOP 1.1- Network Account Onboarding at Globex](./SOPs_1.md)
 
-## [How will network account needs be handled for employees being terminated?](./SOP_2.md)
+## [SOP 1.2- Network Account Termination at Globex](./SOPs_2.md)
 
-## [How will OS version control be handled?](./SOP_3.md)
+## [SOP 1.3- Version Control on Globex Network Infrastructure](./SOPs_3.md)
 
-## [How will you ensure users can access their files from any domain attached system?](./SOP_4.md)
+## [SOP 1.4- Network File Access Throughout Globex Domains](./SOPs_4.md)
 
-## [How will you monitor network traffic?](./SOP_5.md)
+## [SOP 1.5- Network Traffic Monitoringon Globex Domains](./SOPs_5.md)
 
-## [How will you manage change to the network (such as hardware, software, or configuration changes) while minimizing network disruptions and downtime?](./SOP_6.md)
+## [SOP 1.6- Network Change Management](./SOPs_6.md)
 
-## [How will you manage and maintain network security?](./SOP_7.md)
+## [SOP 1.7- Network Security](./SOPs_7.md)
 
-## [Secure Data Disposal SOP](./SOP_08.md)
+## [SOP 1.8- Secure Data Disposal](./SOPs_08.md)
 
-## [Gmail Account and Thunderbird Client Install SOP](./SOP_09.md)
+## [SOP 1.9- Electronic Mail Management on Globex Domains](./SOPs_09.md)
 
-## [Workstation Deployment](./SOP_10.md)
+## [SOP 1.10- Network Workstation Deployment](./SOPs_10.md)
 
-## [Network Connectivity](./SOP_11.md)
+## [SOP 1.11- Network Connectivity](./SOPs_11.md)
 
-## [pfSense](./SOP_12.md)
+## [SOP 1.12- Globex Administration of pfSense](./SOPs_12.md)
 
-## [System Log Analysis and Registry](./SOP_13.md)
+## [SOP 1.13- Network System Log Analysis and Registry](./SOPs_13.md)
