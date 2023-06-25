@@ -6,11 +6,15 @@
 
 ## Needs and Impact
 
-Connectivity - Globex requires a highly elastic solution to address to connectivity of global assets. Our company will continue to move at the speed of innovation, and as such, will need to rapidly expand our architecture to include our new partners which may consist of inclusion to the Globex Architecture or temporary access to the architecture.
+## Needs
 
- * Our chosen solution must also ensure all elements of our company are connected to each other.
+Globex has several needs to meet when designing network architecture to scale:
+
+* Elastic/Scalable - Globex requires a highly elastic solution to address its connectivity of global assets. Our company will continue to move at the speed of innovation, and as such, will need to rapidly expand our architecture to include our new partners which may consist of inclusion to the Globex Architecture or temporary access to the architecture. 
+
+ * Availability - Our chosen solution must also ensure all elements of our company are connected to each other.
        
- * Security - The influence and presence the Globex exerts worldwide lends itself to becoming the subject of attacks by hacktivists and APTs not only to elicit profit via ransomeware attacks but also to invade our systems and persist to perform espionage and sabotage at opportune times. 
+ * Security - The influence and presence that Globex exerts worldwide lends itself to becoming the subject of attacks by hacktivists and APTs not only to elicit profit via ransomeware attacks but also to invade our systems and persist to perform espionage and sabotage at opportune times. Security is paramount and consistent measures to Identify and Authenticate are needed to verify that personnel are who they represent themselves to be. 
 
  * Flexibility - Our proposed system must also provide the maximum level of flexibility and independence so our Individual Business Units (IBUs) may operate in an environment of a high degree of autonomy.
 
@@ -19,34 +23,7 @@ Connectivity - Globex requires a highly elastic solution to address to connectiv
 ## Methodology
   ### Analyze Requirements
      
-  * 
-
- ### Logical Network Design
-    
-  1. Globex Infrastrucutre
-      
-   * Elements:
-     * Globex Cloud (via AWS VPC) - Globex's Corporate Cloud (GCC)
-
-       * Create subnets
-
-         1. "Public Subnets" (1) - Our public subnets will function as a buffer zone or a "DMZ" to safeguard our assets on the Globex Internal Network. Here we can station our servers (Web, Domain, File, etc.) that will be able to access the Internet. 
-              
-            * Globex VPN will connect here to allow transitioning assets access to our resources while migrating to our Internal Networks. They can be added to allowlists to facilitate this.
-
-            * Most Contractors will connect to our VPN to this DMZ area. Only with special written authorization will contractors access the Internal Network (case-by-case basis only)  
-
-         2. "Private Subnets" (1) - Our private subnets will comprise the Globex Internal Network Infrastrucutre (GINI). This network is where the heart of Globex will operate.
-
-            *  These private subnets will be further broken down to the Business Unit Level
-
-            * Organization Units or Departments within Business Units can be segmented via VLAN
-
-      * Globex Internet Gateway (Globex IGW)
-      * Endpoints in GX Public subnet
-      * Endpoints in GX Private subnet
-
-  2. Transitioning Partner former Infrastructure
+  * Transitioning Partner former Infrastructure
 
      When conducting a transition of assets from a partner, it is essential that Globex identify what elements will ultimately be incorporated into our company infrastructure and what elements will be archived. 
 
@@ -58,7 +35,36 @@ Connectivity - Globex requires a highly elastic solution to address to connectiv
         
       and supervise the migration of apporoved aspects to Globex Network Architecture
 
-  3. Existing Logical Network Elements (Globex)
+ ### Logical Network Design
+    
+  1. Globex Infrastrucutre
+      
+   * Elements:
+     * Globex Cloud (via AWS VPC) - Globex's Corporate Cloud (GCC)
+       * Globex elects to choose a cloud model to meet its stated need to be rapidly scalable. 
+       * Create subnets
+
+         1. "Public Subnets" (1) - Our public subnets will function as a buffer zone or a "DMZ" to safeguard our assets on the Globex Internal Network. Here we can station our servers (Web, Domain, File, etc.) that will be able to access the Internet. 
+              
+            * Globex Virtual Private Network (VPN) will connect here via Virtual Private Gateway (VGW) to enhance security while allowing transitioning assets access to our resources during migration to our Internal Networks. They can be added to Security Group (SG) allowlists to facilitate this.
+
+            * The VPN will have a Captive Portal enabled on it to increase Globex's security posture via Defense in Depth. Use of this Captive Portal will ensure that access is only achieved by users with authorization granted by the Domain Controller and being validentified and authenticated. 
+
+            * Most Contractors will connect to our VPN to this DMZ area. Only with special written authorization will contractors access the Internal Network (case-by-case basis only)  
+
+            * The Security Group of the Globex Cloud only allows for assets located in the "Public Subnet" to access the Internet. This is done to maintain 
+
+         2. "Private Subnets" (1) - Our private subnets will comprise the Globex Internal Network Infrastrucutre (GINI). This network is where the heart of Globex will operate.
+
+            *  These private subnets will be further broken down to the Business Unit Level
+
+            * Organization Units or Departments within Business Units can be segmented via VLAN
+
+      * Globex Internet Gateway (Globex IGW)
+      * Endpoints in GX Public subnet
+      * Endpoints in GX Private subnet
+
+  2. Existing Logical Network Element Details (Globex)
 
 | Network Element Name | Description | IP Address (CIDR) | Operating System (OS) | Notes |
 |:----------------------:|:-----------------------:|:----------------------:|:----------------------:|:----------------------:|
@@ -72,7 +78,7 @@ EC2-3 | GreenGenius | 35.168.112.89 | AWS EC2 (AMI Linux) |
  | Globex Domain Controller | Active Server Directory | | Windows 19 Server 
 
 
-| Firewall 1 (Private Subnet to Public Subnet) |:-----------------:|:----------------------:|:---------------------:|:------------------:|:----------------------:| Rule | Source | Destination | Port | Notes |
+| AWS Security Group1 (Private Subnet to Public Subnet) |:------------:|:-------------:|:---------------------:|:------------------:|:----------------------:| Rule | Source | Destination | Port | Notes |
  Allow | | 255.255.255.255/32 | AWS VPC | Note1 |
 
 | DHCP | Description | IP Address (CIDR) | Operating System (OS) | Notes |
@@ -92,5 +98,5 @@ EC2-3 | GreenGenius | 35.168.112.89 | AWS EC2 (AMI Linux) |
   1. Yearly Assessment
 
 ## Version Control:
-06/21/2023 - Ben Hobbs
-06/24/2023 - Ben Hobbs
+* 06/21/2023 - Ben Hobbs
+* 06/24/2023 - Ben Hobbs
