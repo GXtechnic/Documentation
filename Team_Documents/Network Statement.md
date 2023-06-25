@@ -37,22 +37,30 @@ Globex has several needs to meet when designing network architecture to scale:
 
  ### Logical Network Design
     
-  1. Globex Infrastrucutre
-      
-   * Elements:
-     * Globex Cloud (via AWS VPC) - Globex's Corporate Cloud (GCC)
-       * Globex elects to choose a cloud model to meet its stated need to be rapidly scalable. 
-       * Create subnets
+  1. Globex Infrastrucutre Elements:
+     * **Globex Cloud (via AWS VPC) - Globex's Corporate Cloud (GCC)***: Globex elects to choose a cloud model for its secured infrastructure to meet its stated need to be highly elastic and rapidly scalable.
 
-         1. "Public Subnets" (1) - Our public subnets will function as a buffer zone or a "DMZ" to safeguard our assets on the Globex Internal Network. Here we can station our servers (Web, Domain, File, etc.) that will be able to access the Internet. 
-              
-            * Globex Virtual Private Network (VPN) will connect here via Virtual Private Gateway (VGW) to enhance security while allowing transitioning assets access to our resources during migration to our Internal Networks. They can be added to Security Group (SG) allowlists to facilitate this.
+       * Create subnets - Subnetting is a security measure related to the "*Defense in Depth*" concept. The creation of subnets allows leveraging of firewalls (represented here by the element of "Security Groups") to manage authorized communication between the subnets.
+     
+         1. **"Public Subnets"** (1) - Our public subnet will function as a buffer zone or a **"DMZ"** to safeguard our assets on the Globex Internal Network. Here we will station our servers (Web, Domain, File, etc.) that will be able to access the Internet. Higher layers of security can be achieved by further subnetting this space (e.g. to create 'quarantine zones' during Incident Response, or 'sandboxes areas' in order to conduct testing prior to implementing a change.)
 
-            * The VPN will have a Captive Portal enabled on it to increase Globex's security posture via Defense in Depth. Use of this Captive Portal will ensure that access is only achieved by users with authorization granted by the Domain Controller and the Captive portal in conjunction with Active Directory will identify and authenticate the user seeking access. 
+            * The Security Group of the Globex Cloud only allows for assets located in the "Public Subnet" to access the Internet. This is done to maintain
 
-            * Most Contractors will connect to our VPN to this DMZ area. Only with special written authorization will contractors access the Internal Network (case-by-case basis only)  
+            * **Globex Internet Gateway (Globex IGW)**- This is the primary means of connecting the DMZ to the Internet outside of GCC. The Public Subnet uses the Globex IGW as a security boundary. While not the most secure form of connection, an IGW is still a point at which further measures (e.g. Intrusion Detection Systems or Intrusion Prevention Systems may be deployed to further secure the GCC.)
+             
+               * Network Address Translation (NAT) can also be configured on Globex IGWs to support security "*Defense in Depth*"
 
-            * The Security Group of the Globex Cloud only allows for assets located in the "Public Subnet" to access the Internet. This is done to maintain 
+            * **Globex Virtual Private Network (VPN)-**  A more secure means of connecting to the DMZ is by **VPN**, which will connect here via ***Virtual Private Gateway (VGW)*** to enhance security by obscuring traversing the VPN while allowing transitioning assets access to our resources during migration to our Internal Networks. They can be added to Security Group (SG) allowlists to facilitate this. Globex VPNs (and partner VPNs) must use the IPSec protocols in order to be compatible.
+
+              * **Captive Portal-** The VPN will have a **Captive Portal** enabled on it to increase Globex's security posture via *Defense in Depth*. Use of this Captive Portal will ensure that access is only achieved by users with written authorization (from Globex) and credentials granted by the Domain Controller. Use of **Captive Portal** in conjunction with Active Directory will identify and authenticate the user seeking access. 
+
+              * Contractors may also apply for access to connect to our VPN in this DMZ area. Only with special written authorization will contractors access the Globex Internal Network Infrastrucutre (on a case-by-case basis only).  
+
+            * **Security Groups (SGs)** of the Globex Cloud only allow for assets located in the "Public Subnet" to access the Internet. In this regard, they function primarly as firewalls- enforcing rules set to allow or deny certain types of traffic. 
+
+              * **Public Security Group** - Configured on the Public Subnet 
+
+              * **Private Security Group**
 
          2. "Private Subnets" (1) - Our private subnets will comprise the Globex Internal Network Infrastrucutre (GINI). This network is where the heart of Globex will operate.
 
