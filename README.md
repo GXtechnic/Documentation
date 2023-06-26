@@ -23,10 +23,9 @@ This repository contains all documentation related to this project,  including o
 | [SOPs](./SOPs/) |
 |:-----------------------:|
 |  [System Selection](https://github.com/GXtechnic/Documentation/blob/main/Team_Documents/System_Selection.md) |
-| [Team Agreement](https://github.com/GXtechnic/Documentation/blob/main/Team_Documents/Team_Agreement.md) | 
-| [Network Topology](https://github.com/GXtechnic/Documentation/blob/main/Topology/Topology_v1.png) |
+| [Team Agreement](https://github.com/GXtechnic/Documentation/blob/main/Team_Documents/Team_Agreement.md) |
+| [Network Topology](https://github.com/GXtechnic/Presentations) |
 | [Network Architecture Design Statement](https://github.com/GXtechnic/Documentation/blob/main/Team_Documents/Network%20Statement.md) |
-
 
 ## SOPs Table of Contents
 
@@ -54,7 +53,7 @@ This repository contains all documentation related to this project,  including o
 
 ## Presentations
 
-[Presentation Slide Deck](https://docs.google.com/presentation/d/1rXoVMHw0sstGkOP7tk08IB_vvO04RRumBPlRd-BJ2n4/edit?usp=sharing)
+[Presentation Slide Deck](./assets/Seattle_Ops301d8_Final_Team%231_Presentation.pdf)
 
 [Video]()
 
