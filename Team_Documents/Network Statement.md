@@ -50,9 +50,9 @@ Globex has several needs to meet when designing network architecture to scale:
              
                * Network Address Translation (NAT) can also be configured on Globex IGWs to support security "*Defense in Depth*"
 
-            * **Globex Virtual Private Network (VPN)-**  A more secure means of connecting to the DMZ is by **VPN**, which will connect here via ***Virtual Private Gateway (VGW)*** to enhance security by obscuring traversing the VPN while allowing transitioning assets access to our resources during migration to our Internal Networks. They can be added to Security Group (SG) allowlists to facilitate this. Globex VPNs (and partner VPNs) must use the IPSec protocols in order to be compatible.
+            * **Globex Virtual Private Network (VPN)-**  A more secure means of connecting to the DMZ is by **VPN**, which will connect here via ***Virtual Private Gateway (VPG)*** to enhance security by obscuring traversing the VPN while allowing transitioning assets access to our resources during migration to our Internal Networks. They can be added to Security Group (SG) allowlists to facilitate this. Globex VPNs (and partner VPNs) must use the IPSec protocol in order to be  (e.g. OpenSwan, StrongSwan, OpenVPN, pfSense, etc.). On AWS, these systems may work with a ***Customer Private Gateway (CGW)*** to assist in completing the VPN connection Globex's **VPG.**
 
-              * **Captive Portal-** The VPN will have a **Captive Portal** enabled on it to increase Globex's security posture via *Defense in Depth*. Use of this Captive Portal will ensure that access is only achieved by users with written authorization (from Globex) and credentials granted by the Domain Controller. Use of **Captive Portal** in conjunction with Active Directory will identify and authenticate the user seeking access. 
+              * **Captive Portal-** The VPN tunnel will have a **Captive Portal** enabled on it to increase Globex's security posture via *Defense in Depth*. Use of this Captive Portal will ensure that access is only achieved by users with written authorization (from Globex) and credentials granted by the Domain Controller. Use of **Captive Portal** in conjunction with Active Directory will identify and authenticate the user seeking access. 
 
               * Contractors may also apply for access to connect to our VPN in this DMZ area. Only with special written authorization will contractors access the Globex Internal Network Infrastrucutre (on a case-by-case basis only).  
 
@@ -60,17 +60,19 @@ Globex has several needs to meet when designing network architecture to scale:
 
               * **Public Security Group** - Configured on the Public Subnet 
 
-              * **Private Security Group**
+              * **Private Security Group** - Configured on the Private Subnet
 
          2. "Private Subnets" (1) - Our private subnets will comprise the Globex Internal Network Infrastrucutre (GINI). This network is where the heart of Globex will operate.
 
-            *  These private subnets will be further broken down to the Business Unit Level
+            *  These private subnets can be further broken down to the Business Unit (BU) Level
 
-            * Organization Units or Departments within Business Units can be segmented via VLAN
+               * Within Business Units, Organizational Units (OUs) may be further segmented into ***Virtual Local Area Networks (VLANs).***
 
-      * Globex Internet Gateway (Globex IGW)
-      * Endpoints in GX Public subnet
-      * Endpoints in GX Private subnet
+      * **Endpoints in Globex's Public Subnets**
+         * As stated before, endpoints in the Public Subnet area are likely to be Functional Servers (e.g. web servers, file servers, redundant servers, etc.), but the endpoints here could also be proxies, or remote Globex users connecting through the **Virtural Private Gateway**. Resources here can be further subnetted to support sandboxes, quarantine zones for incident response, and even guest access to Internet (in waiting rooms, lobbies, etc.)
+
+      * **Endpoints in Globex's Private Subnets**
+        * Most of Globex's on-premise workstations will be located here. Further subnetting may host closed-circuit resources, executive-level access, Company Intranet, and more.
 
   2. Existing Logical Network Element Details (Globex)
 
@@ -79,11 +81,12 @@ Globex has several needs to meet when designing network architecture to scale:
 Globex VPC | Globex Corporate Network | 18.207.157.243/16 | AWS VPC | Example note |
 GX Public subnet | Globex DMZ1 |10.0.0.0/17 | AWS VPC | what else here? | 
 GX Private subnet | Globex Internal | 10.0.128.0/17 | AWS VPC | note3 | 
-Globex IGW | | 10.0.0.0/16 | AWS IGW | | 
-EC2-1 | Public subnet instance | 18.207.157.243 | AWS EC2 (AMI Linux) | 
-EC2-2 | Private subnet instance | 10.0.221.100 | AWS EC2 (AMI Linux) |
-EC2-3 | GreenGenius | 35.168.112.89 | AWS EC2 (AMI Linux) | 
- | Globex Domain Controller | Active Server Directory | | Windows 19 Server 
+Globex IGW | Unsecured Internet Connection | 10.0.0.0/16 | AWS IGW | | 
+Globex VPG | Globex Secure Connection (VPN) | VPG IP address | AWS VPG | 
+Globex EC2-1 | Public subnet instance | 18.207.157.243 | AWS EC2 (AMI Linux) | 
+Globex EC2-2 | Private subnet instance | 10.0.221.100 | AWS EC2 (AMI Linux) |
+GreenGenius EC2-3 | GreenGenius Endpoint | 35.168.112.89 | AWS EC2 (AMI Linux) | 
+ | Globex Domain Controller | Active Server Directory | Server IP address | Windows 19 Server 
 
 
 | AWS Security Group1 (Private Subnet to Public Subnet) |
@@ -96,17 +99,19 @@ Allow | | 255.255.255.255/32 | AWS VPC | Note1 |
 |:----------------:|:----------------:|:-------------:|:---------------:|:-------------:|
   
   
-  4. 
-  * Physical Network Design
+## Physical Network Design
     
-    1. On-Premise resources
+  1. On-Premise resources
+        * As Globex continues to expand and partner with new companies to provide more capabilities, assessment of acquired Information Technology assets may prove to be inadequate for incorporation to either the GCC or GINI. In these cases, allowances must be made to bring the existing facilities up to a minimum standard while a transition plan is approved and implemented. 
+        * Proper cataloguing of this equipment is essential to provide consistent support during the transition period.
 
-    2. Globex Cloud
+  2. Globex Cloud
+       * Ideally all new acquisitions with be compatible with the GCC Infrastrucutre outlined in this Network Architecture Design Statement.
 
 
 ## Evaluation Result & Discussion
 
-  1. Yearly Assessment
+  1. Yearly Assessments of this Network Architecture Design Statement will be conducted to keep pace with emerging trends, threats and opportunies to reduce Globex's attack surface.
 
 ## Version Control:
 * 06/21/2023 - Ben Hobbs
