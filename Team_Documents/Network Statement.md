@@ -50,7 +50,7 @@ Globex has several needs to meet when designing network architecture to scale:
              
                * Network Address Translation (NAT) can also be configured on Globex IGWs to support security "*Defense in Depth*"
 
-            * **Globex Virtual Private Network (VPN)-**  A more secure means of connecting to the DMZ is by **VPN**, which will connect here via ***Virtual Private Gateway (VPG)*** to enhance security by obscuring traversing the VPN while allowing transitioning assets access to our resources during migration to our Internal Networks. They can be added to Security Group (SG) allowlists to facilitate this. Globex VPNs (and partner VPNs) must use the IPSec protocol in order to be  (e.g. OpenSwan, StrongSwan, OpenVPN, pfSense, etc.). On AWS, these systems may work with a ***Customer Private Gateway (CGW)*** to assist in completing the VPN connection Globex's **VPG.**
+            * **Globex Virtual Private Network (VPN)-**  A more secure means of connecting to the DMZ is by **VPN**, which will connect here via ***Virtual Private Gateway (VGW)*** to enhance security by obscuring traversing the VPN while allowing transitioning assets access to our resources during migration to our Internal Networks. They can be added to Security Group (SG) allowlists to facilitate this. Globex VPNs (and partner VPNs) must use the IPSec protocol in order to be  (e.g. OpenSwan, StrongSwan, OpenVPN, pfSense, etc.). On AWS, these systems may work with a ***Customer Private Gateway (CGW)*** to assist in completing the VPN connection Globex's **VPG.**
 
               * **Captive Portal-** The VPN tunnel will have a **Captive Portal** enabled on it to increase Globex's security posture via *Defense in Depth*. Use of this Captive Portal will ensure that access is only achieved by users with written authorization (from Globex) and credentials granted by the Domain Controller. Use of **Captive Portal** in conjunction with Active Directory will identify and authenticate the user seeking access. 
 
@@ -76,28 +76,35 @@ Globex has several needs to meet when designing network architecture to scale:
 
   2. Existing Logical Network Element Details (Globex)
 
-| Network Element Name | Description | IP Address (CIDR) | Operating System (OS) | Notes |
-|:----------------:|:---------------:|:---------------:|:---------------:|:-----------------:|
-Globex VPC | Globex Corporate Network | 18.207.157.243/16 | AWS VPC | Example note |
-GX Public subnet | Globex DMZ1 |10.0.0.0/17 | AWS VPC | what else here? | 
-GX Private subnet | Globex Internal | 10.0.128.0/17 | AWS VPC | note3 | 
-Globex IGW | Unsecured Internet Connection | 10.0.0.0/16 | AWS IGW | | 
-Globex VPG | Globex Secure Connection (VPN) | VPG IP address | AWS VPG | 
-Globex EC2-1 | Public subnet instance | 18.207.157.243 | AWS EC2 (AMI Linux) | 
-Globex EC2-2 | Private subnet instance | 10.0.221.100 | AWS EC2 (AMI Linux) |
-GreenGenius EC2-3 | GreenGenius Endpoint | 35.168.112.89 | AWS EC2 (AMI Linux) | 
- | Globex Domain Controller | Active Server Directory | Server IP address | Windows 19 Server 
+| Network Element Name | Description | IP Address (CIDR) | Operating System (OS) | ID |
+|:----------------:|:---------------:|:---------------:|:---------------:|:----:|
+| 10Globex VPC | Globex Corporate Network | 10.0.0.0/16 | AWS VPC | vpc-03c429b1e9fefca02
+| GX Public subnet | Globex DMZ1 |10.0.1.0/24 | AWS VPC | subnet-0858c6b0d8519d865  
+| GX Private subnet | Globex Internal | 10.0.3.0/24 | AWS VPC | subnet-032a266835b02d8b8
+| Globex IGW | Unsecured Internet Connection | IGW IP address | AWS IGW | igw-011a8bf616b568d43
+| Globex VGW | Globex Secure Connection (VPN) | VGW IP address | AWS VPG | vgw-070362c6caaaf9a5d
+| Globex EC2-1 | Public subnet instance | 10.0.1.137 / 3.88.248.166 [Public IP] | AWS EC2 (AMI  Linux) | i-07b5a5c9c950cb2a9 | 
+| Globex EC2-2 | Private subnet instance | 10.0.221.100 | AWS EC2 (AMI Linux) |
+| Globex Domain Controller | Active Server Directory | Server IP address | Windows 19 Server 
 
+### AWS Security Group1 (Private Subnet to Public Subnet)
 
-| AWS Security Group1 (Private Subnet to Public Subnet) |
-|:-----------------------------------------------------:|
-|:-----------:|:--------------:|:---------------:|:---------------:| 
-Rule | Source | Destination | Port | Notes |
-Allow | | 255.255.255.255/32 | AWS VPC | Note1 |
+ 
+| Rule | Source | Destination | Port | Protocol |Notes |
+|:--------------:|:----------:|:------------:|:-----------:|:-----:|:-------:|
+| Allow | 0.0.0.0/0 | 0.0.0.0/0 | 22 | TCP | SSH
+| Allow | 0.0.0.0/0 | 0.0.0.0/0 | - | ICMP | ICMP
 
-| DHCP | Description | IP Address (CIDR) | Operating System (OS) | Notes |
-|:----------------:|:----------------:|:-------------:|:---------------:|:-------------:|
   
+  3. Existing Logical Network Element Details (GreenGenius)
+
+| Network Element Name | Description | IP Address (CIDR) | Operating System (OS) | ID |
+|:----------------:|:---------------:|:---------------:|:---------------:|:----:|
+| GreenGenius VPC | GreenGenius VPC | 172.31.0.0/16 | AWS VPC | vpc-0f78af57f6ecb08e6
+| GreenGenius EC2-3 | GreenGenius Endpoint | 172.31.10.122 / 44.201.2.52 [Public IP] | AWS EC2 (AMI Linux) | 1-0c7c98f557a995e27
+| GreenGenius CGW | GreenGenius Customer Gateway | BGP ASN 65000 / 44.201.2.52 [Public IP] | AWS CGW | cgw-00b24a574063b5f6d
+
+
   
 ## Physical Network Design
     
